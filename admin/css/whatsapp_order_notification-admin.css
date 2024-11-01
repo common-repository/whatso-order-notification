@@ -1,0 +1,144 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+/* to override body style */
+ body {
+    background: #f0f0f1 !important;
+   
+}
+
+#wpbody-content {
+    margin-top: 20px;
+}
+
+/* Required symbol (*) style */
+.required_star {
+    color: rgb(241, 6, 6);
+    font-size: 16px;
+    margin-top: 25px;
+    margin-left: 2px;
+}
+/* Input styel */
+.text_input {
+    width: 100%;
+}
+/* 
+theme button style */
+.btn-theme {
+    background-color: #9BBB5C !important;
+    color: #FFF !important;
+    border-radius: 25px !important;
+    padding: 2px 25px !important;
+}
+/* 
+theme button style */
+.btn-theme:hover {
+    border: 1px solid #9BBB5C;
+    color: #fff;
+}
+
+/* error message style */
+.error {
+    color: red;
+    font-size: 10px;
+    display: none;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+/* style for breadcrumbs */
+ul.breadcrumb {
+    padding: 0px 16px;
+    list-style: none;
+    margin-left: -15px;
+    margin-top: 10px;
+    margin-bottom: 8px;
+}
+/* style for breadcrumbs */
+ul.breadcrumb li {
+    display: inline;
+    font-size: 18px;
+}
+/* style for breadcrumbs */
+ul.breadcrumb li+li:before {
+    padding: 8px;
+    color: black;
+    content: "/\00a0";
+}
+/* style for breadcrumbs */
+ul.breadcrumb li a {
+    color: #0275d8;
+    text-decoration: none;
+    outline-offset: 0px;
+    outline: 0px;
+    box-shadow: none;
+}
+/* style for breadcrumbs */
+ul.breadcrumb li a:hover {
+    color: #01447e;
+    text-decoration: underline;
+}
+/* Notice text style */
+.note {
+    margin-left: 19px;
+    font-size: 16px;
+    font-weight: 700;
+}
+/* a tag style */
+a:focus {
+    outline: none;
+    outline: 0px;
+    box-shadow: none;
+    outline-offset: 0px;
+    outline: -webkit-focus-ring-color auto 0px;
+}
+/* image class style */
+.imgclass {
+    width: 135px;
+    margin-top: 10px;
+    height: auto;
+}
+/* Label style */
+.lbl1 {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+/* input style for checkbox */
+input[type=checkbox] {
+    width: 20px;
+    height: 20px;
+}
+
+
+input[type=checkbox]:checked::before {
+    content: url(data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%27http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%27%20viewBox%3D%270%200%2020%2020%27%3E%3Cpath%20d%3D%27M14.83%204.89l1.34.94-5.81%208.38H9.02L5.78%209.67l1.34-1.25%202.57%202.4z%27%20fill%3D%27%233582c4%27%2F%3E%3C%2Fsvg%3E);
+    margin: -1px 0px 0px -3px;
+    height: 5px;
+    width: 22px;
+}
+
+input[type=checkbox]:focus,
+input[type=file]:focus,
+input[type=radio]:focus {
+    outline: 0px auto -webkit-focus-ring-color;
+    outline-offset: 0px;
+    box-shadow: none;
+}
+
+.list-items {
+    margin-left: 55px;
+    font-size: 15px;
+    margin-right: 90px;
+}
+
+/* Image logo style */
+.img {
+    border-radius: 20px;
+}
+
+.card {
+    border-radius: 1rem !important;
+    max-width: 100%;
+}
